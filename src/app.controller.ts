@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    console.log('rebase0This action adds a new category');
     return this.appService.getHello();
   }
 }
