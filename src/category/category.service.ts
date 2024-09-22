@@ -9,11 +9,11 @@ export class CategoryService {
   }
 
   findAll() {
-    return `This action returns all category123`;
+    return `rebase1This action returns all category123`;
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} category`;
+    return `rebase1This action returns a #${id} category`;
   }
 
   update(id: number, updateCategoryDto: UpdateCategoryDto) {
