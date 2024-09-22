@@ -9,7 +9,7 @@ export class CategoryService {
   }
 
   findAll() {
-    return `rebase1This action returns all category123`;
+    return `mergerebase1This action returns all category123`;
   }
 
   findOne(id: number) {
