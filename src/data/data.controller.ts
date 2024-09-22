@@ -15,6 +15,7 @@ export class DataController {
 
   @Get()
   findAll() {
+    console.log('456');
     return this.dataService.findAll();
   }
 
