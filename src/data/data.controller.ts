@@ -9,6 +9,7 @@ export class DataController {
 
   @Post()
   create(@Body() createDatumDto: CreateDatumDto) {
+    console.log('123');
     return this.dataService.create(createDatumDto);
   }
 
